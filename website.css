@@ -1,0 +1,77 @@
+body {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 30px;
+}
+p {
+    color: dimgray;
+}
+.name-heightlight {
+    color:orange;
+}
+.half-width {
+    width: 40%;
+    float: left;
+   margin-left: 5%;
+   padding-left: 2%;
+}
+.half-width img {
+    width: 100%;
+}
+.first-background {
+    border: 1px solid red;
+    background-image: url("hasan a.png");
+    background-repeat: no-repeat;
+    background-size: 400px;
+}
+section {
+    height: 500px;
+}
+.link-batton {
+    text-decoration: none;
+    background: linear-gradient(45deg, red, blue, green);
+    padding: 7px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.second-background {
+    background: url("photo a.png");
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: 100px;
+    border: solid green 1px;
+}
+ .second-class {
+    box-shadow: 10px 10px 40px gray;
+    border-radius:7px;
+    height:60%;
+    padding-right: 10px;
+    background-color: white;
+ }
+ .third-background {
+    background: url("photo b.png");
+    background-size:150px;
+    background-repeat: no-repeat;
+    background-position: left;
+ }
+ #border {
+    border-left: solid 10px;
+    border-image: linear-gradient(45deg, #2749A4,green,red);
+    border-image-slice: 1;
+ }
+ #second-border {
+    border-left: solid 10px;
+    border-image: linear-gradient(green,#2749A4,yellow,gray,red);
+    border-image-slice: 1;
+ }
+ footer p{
+    text-align: center;
+    font-size:15px;
+ }
